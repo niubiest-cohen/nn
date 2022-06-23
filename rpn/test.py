@@ -30,8 +30,6 @@ def bilinear_interpolate(img, x, y):
     pd = img[y1, x1]
 
 
-
-
 class TorchROIPool(object):
 
     def __init__(self, output_size, scaling_factor):
